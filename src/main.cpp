@@ -22,7 +22,7 @@ display.init(115200);                   // bitrate for diagnostic
 //helloWorld();                           // funkcia
 display.hibernate();                    // turns display OFF and set MCU to deep sleep
 }
-const char HelloWorld[] = "Test displeja BW";
+const char HelloWorld[] = "Test displeja BW a GIT";
 void helloWorld()                       //funkcia nastavenia displeja
 {
 display.setRotation(1);                 //pismo        1 vodorovne 2 zvislo
@@ -45,7 +45,10 @@ display.print(HelloWorld);                //vytlači sa obsah za printom asi ful
 }
 while (display.nextPage());
 }
-void loop() {};
+void loop() 
+{
+    //Test
+};
 
 
 
